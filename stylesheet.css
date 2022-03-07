@@ -1,10 +1,14 @@
+* {
+    color: white;
+}
 body {
     background-image: url("images/background1.jpg");
-    color: white;
 }
 
 img {
+    float: left;
     height: 500px;
     width: 400px;
+    object-fit: cover;
 }
 
