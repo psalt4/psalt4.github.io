@@ -1,3 +1,10 @@
 body {
     background-image: url("images/background1.jpg");
+    color: white;
 }
+
+img {
+    height: 500px;
+    width: 400px;
+}
+
