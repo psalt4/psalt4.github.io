@@ -1,6 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: azure;
 }
 body {
     background-image: url("images/background1.jpg");
@@ -36,11 +36,6 @@ ul li {
     margin: 0 auto;
 }
 
-p {
-    padding: 5px;
-    color
-}
-
-h1 {
+h1 h2 {
     text-decoration: underline;
 }
