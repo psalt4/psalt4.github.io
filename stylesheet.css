@@ -1,6 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #F0FFFF;
+    color: azure;
+    border-style: border-box;
 }
 body {
     background-image: url("images/background1.jpg");
