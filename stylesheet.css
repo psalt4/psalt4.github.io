@@ -9,91 +9,134 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    position: inline-block;
-    width: 100%;
-    height 400px;
-    text-align: center;
-    font-weight: bold;
-    background-image: url('images/soothing-lake-bkgrnd.jpg');
-}
-
-p.header {
-    font-size: 20px;
-    font-style: italic;
-}
-
 nav {
     position: fixed;
     top: 0px;
+    height: 47px;
     width: 100%;
     z-index: 1;
     background-color: black;
     text-align: center;
+    opacity: .75;
 }
 
 nav li {
+    color: white;
     padding: 0px 10px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: inline-block;
-    text-decoration-line: overline;
+    text-decoration: overline;
+}
+
+.header {
+    position: relative;
+    top: 35px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background-image: url('images/soothing-ocean-bkgrnd.jpg');
+    background-size: cover;
+}
+
+.header p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    position: relative;
+    top: 200px;
 }
 
 section h2 {
     text-decoration: underline;
+    font-family: arial narrow;
 }
 
 section.intro{
     background-color: orange;
     display: inline-block;
-    width: 73%;
+    width: 100%;
     height: 300px;
     padding: 0px 5px;
+    position: relative;
+    top: 35px;
 }
 
-#introimg {
+.intro p {
+    display: block;
+    width: 70%;
+}
+
+.intro img {
     height: 300px;
     width: 200px;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    right: 0;
 }
 
 .fam {
-    display: inline-block;
+    display: block;
+    position: relative;
+    top: 15px;
     text-align: center;
     background-color: white;
+}
+
+.fam p {
+    display: inline-block;
+
 }
 
 #fampic1 {
     height: 200px;
     width: 300px;
+    float: left;
+    position: ;
 }
 
 #fampic2 {
-    height: 200px;
+    height: 400px;
     width: 300px;
+
 }
 
 .frat {
     background-color: darkgoldenrod;
+    text-align: right;
+    display: inline-block;
+    top: 0px;
+    padding: 0 5px;
+}
+
+.frat p {
+    display: inline-block;
+    width: 50%;
+    right: 0px;
+
 }
 
 #fratfounders {
     height: 300px;
     width: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 1550px;
+    left: 5px;
 }
 
 #fratpham {
     height: 300px;
     width: 400px;
+    position: relative;
+    float: left;
 }
 
 footer p {
     background-color: black;
     color: white;
-    display: inline;
-    height: 0px;
-    width: 750px;
+    display: inline-block;
+    width: 751px;
+    position: relative;
+    bottom: -16px;
     text-align: center;
 }
